@@ -1,5 +1,7 @@
 # ICJ Project Template
 
+Published link: https://perezarmandom.github.io/armando-staticapp
+
 A Node-based template system with a Gulp workflow set up for Github Pages publishing.
 
 Features:
