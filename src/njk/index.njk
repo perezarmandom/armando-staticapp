@@ -7,10 +7,10 @@
 {% block content %}
 <div class="container">
   <div class="row">
-    <div class="col">
-      <h1>Main headline</h1>
-      <p>This is a <a href="detail-entry-example.html">link to a blog entry example</a> which shows a simple detail entry page example. It uses the "data-entry.njk" layout.</p>
-      <p>This is a <a href="detail-book-shipping-news.html">link to a book page example</a> which uses a more complex detail layout (detail-book.njk) where data is pulled into the layout and the page calls for a specific row in the data.</p>
+    <div class="col-sm-12 col-offset-md-3">
+      <h1>The Flying Dutchman</h1>
+      <p>The Flying Dutchman is a legendary ghostship that is cursed to sail the oceans forever without ever making port. This blog is meant to tracks its everlasting journey across the seven seas.</p> 
+      <p>It is a common superstition of mariners, that, in the high southern latitudes on the coast of Africa, hurricanes are frequently ushered in by the appearance of a spectre-ship, denominated the Flying Dutchman ... The crew of this vessel are supposed to have been guilty of some dreadful crime, in the infancy of navigation; and to have been stricken with pestilence ... and are ordained still to traverse the ocean on which they perished, till the period of their penance expire.</p>
       {% for entry in data.entries %}
         <h3 class="entry-headline"><a href="{{ entry.url }}">{{ entry.title }}</a></h3>
         <p class="entry-date">{{ entry.date }}</p>

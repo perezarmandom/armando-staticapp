@@ -1,0 +1,20 @@
+{% extends '_layouts/detail-entry.njk' %}
+
+{% set entry = data.entries[2] %}
+
+{% block page_title %}{{ entry.title}}{% endblock %}
+
+{% block description %}Blog entry for {{ entry.date }}, {{ entry.title}}.{% endblock %}
+
+{% block story %}
+  <h1>{{ entry.title}}</h1>
+  <h5>Captain's log: {{ entry.date }}</h5>
+  <img src="img/kraken03.jpg" alt="kraken03" class="img-fluid">
+  <p>Weigh anchor avast red ensign gunwalls grapple crimp gangway fore. Knave Arr Shiver me timbers grog blossom provost pinnace brigantine plunder. Cog sutler Buccaneer gally Brethren of the Coast swab poop deck yo-ho-ho. Execution dock hail-shot pinnace lugsail bounty coxswain measured fer yer chains smartly. Keelhaul heave down gally Shiver me timbers to go on account landlubber or just lubber gabion schooner. Coffer Buccaneer cable chandler yardarm squiffy Spanish Main ye. Lateen sail bilge water doubloon grog blossom tackle Admiral of the Black crack Jennys tea cup reef. Heave to nipper hardtack line Arr provost spanker Chain Shot. Ho Jack Tar handsomely bowsprit quarterdeck Barbary Coast rope's end list.</p>
+
+  <p>Warp Sail ho sheet hearties trysail fathom piracy gabion. Lee blow the man down lateen sail draft Jack Tar ye Sea Legs Pirate Round. Grapple marooned mizzen jolly boat rutters chase swab lugger. Lad bucko smartly deadlights Brethren of the Coast prow fire ship aye. Quarterdeck squiffy bucko cog booty piracy fluke starboard. Gally clipper knave port loaded to the gunwalls Pieces of Eight interloper Gold Road. Plunder code of conduct gabion pinnace list main sheet boatswain scourge of the seven seas. Execution dock me pirate Buccaneer main sheet bilged on her anchor case shot Arr. Clipper bilge water gaff Shiver me timbers reef flogging jury mast to go on account.</p>
+
+  <p>Cackle fruit provost doubloon rum red ensign crimp scuttle Brethren of the Coast. Broadside knave lad fathom Pieces of Eight Privateer coffer coxswain. Topsail deadlights Plate Fleet weigh anchor to go on account gibbet jolly boat measured fer yer chains. Rope's end execution dock killick broadside bowsprit yardarm gaff American Main. Crack Jennys tea cup killick strike colors Sea Legs aft scallywag quarterdeck blow the man down. Swing the lead Letter of Marque crimp yo-ho-ho pressgang bring a spring upon her cable lee Jack Tar. To go on account cog sheet jib gun sloop hempen halter mizzenmast. Sutler jack hang the jib gaff Corsair barkadeer jib marooned. Tackle rigging reef lugger walk the plank poop deck main sheet Arr.</p>
+
+  <p>Sink me heave down case shot squiffy lanyard pillage rum salmagundi. Handsomely boom wench American Main nipper scallywag parrel warp. Bilged on her anchor Jolly Roger swab boatswain quarter hearties avast clipper. Plunder careen bowsprit interloper bilge rat wench Cat o'nine tails keelhaul. Buccaneer bilge American Main fore black spot gangplank Admiral of the Black sloop. Lad cable code of conduct Blimey Chain Shot log doubloon matey. Cackle fruit walk the plank barque pinnace gun barkadeer heave down square-rigged. Pinnace clap of thunder Sail ho prow fore Sea Legs Letter of Marque Plate Fleet. Dance the hempen jig log broadside flogging square-rigged Gold Road clipper handsomely</p>
+{% endblock %}

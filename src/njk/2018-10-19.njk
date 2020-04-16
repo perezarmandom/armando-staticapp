@@ -1,0 +1,16 @@
+{% extends '_layouts/detail-entry.njk' %}
+
+{% set entry = data.entries[1] %}
+
+{% block page_title %}{{ entry.title }}{% endblock %}
+
+{% block description %}Blog entry for {{ entry.date }}, {{ entry.title }}.{% endblock %}
+
+{% block story %}
+  <h1>{{ entry.title }}</h1>
+  <h5>Captain's log: {{ entry.date }}</h5>
+  <img src="img/kraken02.jpg" alt="kraken02" class="img-fluid">
+  <p>Log belaying pin Shiver me timbers ye bilge water yardarm cog lee. Scuppers overhaul handsomely log capstan chandler rutters bring a spring upon her cable. Sloop aye quarterdeck Plate Fleet Jolly Roger bilge water Arr code of conduct. Pink salmagundi piracy me reef cackle fruit Sea Legs gaff. Log lee scurvy heave to mizzenmast chantey fathom Davy Jones' Locker. Pinnace grog blossom smartly splice the main brace boatswain gally crow's nest draft. Me keel tack sloop black jack piracy cable pinnace.</p>
+
+  <p>Chase Brethren of the Coast hogshead Sink me prow main sheet cutlass spike. Letter of Marque poop deck keelhaul Chain Shot carouser maroon six pounders warp. Rum marooned lookout broadside pinnace hornswaggle grog gibbet. Mizzenmast Letter of Marque boatswain trysail yardarm lateen sail main sheet heave down. Careen ballast code of conduct spirits Chain Shot trysail Sea Legs jib. Case shot lugsail long clothes draught tack barque salmagundi bilge. Square-rigged prow hands gabion avast case shot Admiral of the Black matey.</p>
+{% endblock %}
